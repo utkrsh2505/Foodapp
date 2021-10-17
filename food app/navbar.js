@@ -19,13 +19,13 @@ function displayFood(data){
     let div = document.createElement('div');
     div.className = "foodbox";
     let p = document.createElement('p')
-    p.innerText = `${data[0].strMeal}`
+    p.innerText = `${data[i].strMeal}`
     let p1 = document.createElement('p')
     p1.innerText = `Category: ${data[0].strCategory}`
     let p2 = document.createElement('p')
-    p2.innerText = `Instructions: ${data[0].strInstructions}`
+    p2.innerText = `Instructions: ${data[i].strInstructions}`
      let img = document.createElement('img');
-     img.src = `${data[0].strMealThumb}`
+     img.src = `${data[i].strMealThumb}`
 
      div.append(img,p,p1,p2);
      dis.append(div);
