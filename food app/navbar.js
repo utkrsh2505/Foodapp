@@ -5,9 +5,9 @@ return `<div id="nav">
     <button id="btn">Search</button>
 </div>
 <div id="nav_right">
-    <h3><a href="#">Home</a></h3>
-    <h3><a href="#">Get Recipe of the Day</a></h3>
-    <h3><a href="#">Show Latest Receipe</a></h3>
+    <h3><a href="index.html">Home</a></h3>
+    <h3><a href="receipe.html">Get Recipe of the Day</a></h3>
+    <h3><a href="latestreceipe.html">Show Latest Receipe</a></h3>
 </div>
 </div>
 <div id="display"></div>`
